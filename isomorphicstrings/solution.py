@@ -1,5 +1,5 @@
 class Solution:
-    def isIsomorphic(self, s: str, t: str) -> bool:
+    def is_isomorphic(self, s: str, t: str) -> bool:
         self.mapping = {}
         for i in range(len(s)):
             if not self.establish_mapping(s[i], t[i]):
