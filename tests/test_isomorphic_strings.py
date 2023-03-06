@@ -12,7 +12,7 @@ def solution():
     [("egg", "add", True), ("foo", "bar", False), ("paper", "title", True)],
 )
 def test_solution(solution, s, t, expected):
-    assert solution.isIsomorphic(s, t) == expected
+    assert solution.is_isomorphic(s, t) == expected
 
 
 def test_reestablish_same_mapping(solution):
